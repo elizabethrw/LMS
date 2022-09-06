@@ -72,4 +72,4 @@ Anticipated Components:
     -	What information each Book object and User Object needs to hold
     -	GUI format
 5. Only the developers will review the code and other related documentation.
-6. The code will be developed and tested on a Windows 10 computer using the VSCode Development Environment with Doxygen.
+6. The code will be written in C++, and developed/tested on a Windows 10 computer using the VSCode Development Environment with Doxygen.
