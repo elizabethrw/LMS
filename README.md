@@ -37,25 +37,26 @@ Focusing on requirements, design, writing the code, and code and unit testing ar
 
 Anticipated Components:
 1. Classes
- - Book
- - User
+
+    -	Book
+    -	User
 2. Functions
- - Find Book Object
- - Create Book Object
- - Delete Book Object
- - Find User Object
- - Create User Object
- - Delete User Object
- - Track Date
- - Update Book Object's Status (Manual)
- - Update User Object's Status (Manual)
- - Update Book Object's Status (Time)
- - Update Book Object's Status (Time)
+    -	Find Book Object
+    -	Create Book Object
+    -	Delete Book Object
+    -	Find User Object
+    -	Create User Object
+    -	Delete User Object
+    -	Track Date
+    -	Update Book Object's Status (Manual)
+    -	Update User Object's Status (Manual)
+    -	Update Book Object's Status (Time)
+    -	Update Book Object's Status (Time)
 3. Keyboard Input (Main)
- - Request What the User Wants to Do
- - Call Functions Based on Input
- - Close Software Based on Input
- - GUI
+    -	Request What the User Wants to Do
+    -	Call Functions Based on Input
+    -	Close Software Based on Input
+    -	GUI
  
 ## Basis of Estimate
 
@@ -67,8 +68,8 @@ Anticipated Components:
 3. The productivity factor is the time to develop the unit test.
 4. Integration and Test time is included in the 10 SLOC per hour productivity factor.
 5. Minimal design documentation is anticipated and included in the 10 SLOC estimate. The following identifies potential design documentation:
-- Data structure used to store Book object and User Object (and why that data structure is the most efficient choice)
-- What information each Book object and User Object needs to hold
-- GUI format
+    -	Data structure used to store Book object and User Object (and why that data structure is the most efficient choice)
+    -	What information each Book object and User Object needs to hold
+    -	GUI format
 5. Only the developers will review the code and other related documentation.
 6. The code will be developed and tested on a Windows 10 computer using the VSCode Development Environment with Doxygen.
