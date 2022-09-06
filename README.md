@@ -32,8 +32,43 @@ The system is designed to be used by a working librarian. The system will have i
 
 The system will accept user inputs from the terminal and update its records based on those inputs.
 
-## Estimate of the Effort: 
+## Estimate of the Effort 
+Focusing on requirements, design, writing the code, and code and unit testing are all steps that will be taking in writing the library management system. Anticipated components of the project are listed below.
 
+Anticipated Components:
+1. Classes
+ - Book
+ - User
+2. Functions
+ - Find Book Object
+ - Create Book Object
+ - Delete Book Object
+ - Find User Object
+ - Create User Object
+ - Delete User Object
+ - Track Date
+ - Update Book Object's Status (Manual)
+ - Update User Object's Status (Manual)
+ - Update Book Object's Status (Time)
+ - Update Book Object's Status (Time)
+3. Keyboard Input (Main)
+ - Request What the User Wants to Do
+ - Call Functions Based on Input
+ - Close Software Based on Input
+ - GUI
+ 
 ## Basis of Estimate
 
+![BOE](https://user-images.githubusercontent.com/77339445/188673473-be277ffe-0875-4f9c-b8a8-cd55d825e987.png)
+
 ## Assumptions
+1. 10 SLOC per hour per person productivity factor.
+2. The basis of estimate includes the Unit Test code count.
+3. The productivity factor is the time to develop the unit test.
+4. Integration and Test time is included in the 10 SLOC per hour productivity factor.
+5. Minimal design documentation is anticipated and included in the 10 SLOC estimate. The following identifies potential design documentation:
+- Data structure used to store Book object and User Object (and why that data structure is the most efficient choice)
+- What information each Book object and User Object needs to hold
+- GUI format
+5. Only the developers will review the code and other related documentation.
+6. The code will be developed and tested on a Windows 10 computer using the VSCode Development Environment with Doxygen.
